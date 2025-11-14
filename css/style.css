@@ -36,16 +36,17 @@ a:hover{
 }
 .sobremim{
     display: flex;
-    flex-direction: column;
     margin-top: 2%;
+    align-items: center;
     padding: 2%;
-   width: 60%;
-   height: 30%;
+    height: 30%;
 }
 .biografia{
+    display: flex;
     color: white;
 }
 .apresentacao{
+    display: flex;
     color: white;
 }
 img{
@@ -53,12 +54,64 @@ img{
     margin-left: 40%;
     margin-top: 5%;
     border-radius: 10%;
-    width: 35%;
-    height: 30%;
+    width: 50%;
+    height: 80%;
     
 }
 main{
     display: flex;
+    flex-direction: column;
     margin-top: 5%;
     align-items: center;
+    height: 100%;
+}
+.projetos{
+    display: flex;
+    color: white;
+    background-color: #171717;
+    margin-top: 0%;
+    width: 100%;
+  
+}
+.nomeprojeto{
+    padding-left: 2%;
+}
+.projeto1{
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    border-radius: 8px;
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+}
+.projeto2{
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    border-radius: 8px;
+    width: 25%;
+    height: 25%;
+    margin-top: 15%;
+}
+.projeto3{
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    border-radius: 8px;
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+}
+.especificacoes1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.especificacoes2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.especificacoes3{
+    display: flex;
+    justify-content: space-evenly;
 }
