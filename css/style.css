@@ -23,7 +23,7 @@ nav{
     display: flex;
     padding-right: 2%;
     column-gap: 10px;
-    margin-right: 10px;
+    margin-right: 43px;
 }
 .meuportfolio{
     color: white;
@@ -36,6 +36,15 @@ a{
 a:hover{
     color: #ff6b35;
     transition: 0.5s;
+}
+.portfolio_imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bonequinho{
+    width: 25px;
 }
 .sobremim{
     display: flex;
@@ -89,7 +98,6 @@ main{
 }
 .projeto1{
     display: flex;
-    flex-direction: column;
     background-color: #262626;
     margin-left: 2%;
     border-radius: 12px;
@@ -104,7 +112,6 @@ main{
 }
 .projeto2{
     display: flex;
-    flex-direction: column;
     background-color: #262626;
     width: 45%;
     border-radius: 12px;
@@ -118,7 +125,6 @@ main{
 }
 .projeto3{
     display: flex;
-    flex-direction: column;
     background-color: #262626;
     margin-left: 25%;
     padding: 1%;
@@ -151,4 +157,13 @@ main{
 .subtituloprojeto{
     font-size: 18px;
     color: grey;
+}
+.compartilhar{
+    display: flex;
+    width: 30px;
+    margin-top: 0px;
+}
+.elementos_projeto{
+    display: flex;
+    flex-direction: column;
 }
