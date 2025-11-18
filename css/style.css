@@ -8,6 +8,7 @@ body{
 header{
     position: fixed;
     display: flex;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
@@ -94,14 +95,16 @@ main{
     flex-wrap: wrap;
     gap: 10px;
     width: 80%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 .projeto1{
     display: flex;
+    position: relative;
     background-color: #262626;
     margin-left: 2%;
     border-radius: 12px;
-    width: 45%;
+    width: 35%;
     margin-top: 5%;
     padding: 1%;
     transition: 0.5s;
@@ -112,8 +115,9 @@ main{
 }
 .projeto2{
     display: flex;
+    position: relative;
     background-color: #262626;
-    width: 45%;
+    width: 35%;
     border-radius: 12px;
     padding: 1%;
     margin-top: 5%;
@@ -125,10 +129,11 @@ main{
 }
 .projeto3{
     display: flex;
+    position: relative;
     background-color: #262626;
     margin-left: 25%;
     padding: 1%;
-    width: 45%;
+    width: 35%;
     border-radius: 12px;
     transition: 0.5s;
 }
@@ -159,9 +164,10 @@ main{
     color: grey;
 }
 .compartilhar{
-    display: flex;
     width: 30px;
-    margin-top: 0px;
+    position: absolute;
+    top: -30%;      /* distancia do topo */
+    right: 10px;    /* distancia do canto direito */
 }
 .elementos_projeto{
     display: flex;
