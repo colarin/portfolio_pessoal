@@ -166,10 +166,57 @@ main{
 .compartilhar{
     width: 30px;
     position: absolute;
-    top: -30%;      /* distancia do topo */
-    right: 10px;    /* distancia do canto direito */
+    top: -30%;      
+    right: 10px;    
 }
 .elementos_projeto{
     display: flex;
     flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 22px;
+    width: auto;
+    transform: none;
+    position: static;
+}
+.tituloHabilidade{
+    color: white;
+    font-size: 20px;
+}
+.lampada{
+    transform: none;
+    width: 30px;    
+}
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    width: 100%;
+    padding: 2% 0;
+}
+.tabela{
+    display: flex;
+    color: white;
+    width: 80%;
+    margin-left: 10%;  
+    margin-top: 2%;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #262626;
+    border-radius: 30px;
+}
+.linhaTabela{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+.linhaTabela:hover{
+    color: #ff6b35;
+    transition: 0.5s;
 }
