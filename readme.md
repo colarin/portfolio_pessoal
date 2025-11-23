@@ -50,7 +50,7 @@ portfolio/
 
 ## 🔗 **Link do Site**
 
-👉 *Adicionar aqui:* **[https://colarin.github.io/portfolio_pessoal/](#)**  
+👉 *Adicionar aqui:* **[Clique aqui!](https://colarin.github.io/portfolio_pessoal/)**  
 
 ---
 
